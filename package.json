@@ -1,0 +1,61 @@
+{
+  "name": "@kouts/vue-popper",
+  "description": "A popper component for Vue",
+  "version": "0.0.1",
+  "author": "Giannis Koutsaftakis",
+  "license": "MIT",
+  "repository": "https://github.com/kouts/vue-popper",
+  "keywords": [
+    "vue",
+    "component",
+    "popper",
+    "dropdown",
+    "menu",
+    "tooltip",
+    "popover"
+  ],
+  "main": "dist/vue-popper.umd.min.js",
+  "module": "vue-popper.es.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:vue": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "watch": "vuepress dev docs",
+    "rollup": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build": "rollup -c && vuepress build docs"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-unit-jest": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.1",
+    "node-sass": "^4.14.1",
+    "rollup": "^2.22.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-only": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.2"
+  }
+}
